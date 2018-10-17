@@ -1,20 +1,51 @@
+// function zoomin() {
+//     var myImg = document.getElementById("map");
+//       myImg.style.fontSize = "32px";
+//     }
 
+// function zoomout() {
+//     var myImg = document.getElementById("map");
+//     myImg.style.fontSize = "16px";
+// }
+
+
+
+
+// function zoomin() {
+//     var myP = document.getElementById("map");
+//          if (myP.style.fontSize === "medium")
+//     {
+        
+//         myP.style.fontSize = "large";
+//     }
+//     }
+
+
+//      if (myP.style.fontSize === "large")
  
-function zoomin(){
-        var myImg = document.getElementById("map");
-        var currWidth = myImg.clientWidth;
-        if(currWidth == 2500) return false;
-         else{
-            myImg.style.width = (currWidth + 100) + "px";
-        } 
+
+myP.style.fontSize = "medium";
+var myP = document.getElementById("map");
+
+function zoom() 
+{
+    
+
+
+
+    if (myP.style.fontSize === "medium")
+    {
+        myP.style.fontSize = "large";
     }
-    function zoomout(){
-        var myImg = document.getElementById("map");
-        console.log(myImg);
-        var currWidth = myImg.clientWidth;
-        if(currWidth == 100) return false;
-		 else{
-            myImg.style.width = (currWidth - 100) + "px";
-           
-        }
+    else if (myP.style.fontSize === "large")
+    {
+        myP.style.fontSize = "medium";
     }
+    else
+    {}
+}
+console.log(myP.style.fontSize);
+document.getElementById("button").addEventListener("click", zoom );
+
+
+
