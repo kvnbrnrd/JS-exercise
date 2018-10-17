@@ -19,17 +19,35 @@ function incHeight()
 function colorGreen() 
 {
 
-    if (square.style.backgroundColor == "blue")
+    if (square.style.backgroundColor == "blue");
     {
-        square.style.backgroundColor = "green"
+        square.style.backgroundColor = "green";
     }
 }
 
 function colorBlue() 
 {
 
-    if (square.style.backgroundColor == "green")
+    if (square.style.backgroundColor == "green");
     {
-        square.style.backgroundColor = "blue"
+        square.style.backgroundColor = "blue";
     }
+}
+
+function hideSquare()
+{
+    if (square.style.display == "initial");
+    {
+        square.style.display = "none";
+    }
+
+}
+
+function showSquare()
+{
+    if (square.style.display == "none");
+    {
+        square.style.display = "block";
+    }
+
 }
