@@ -15,3 +15,21 @@ function incHeight()
         square.style.height = "100px";
     }
 }
+
+function colorGreen() 
+{
+
+    if (square.style.backgroundColor == "blue")
+    {
+        square.style.backgroundColor = "green"
+    }
+}
+
+function colorBlue() 
+{
+
+    if (square.style.backgroundColor == "green")
+    {
+        square.style.backgroundColor = "blue"
+    }
+}
