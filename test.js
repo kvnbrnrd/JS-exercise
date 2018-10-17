@@ -24,8 +24,9 @@
 //      if (myP.style.fontSize === "large")
  
 
-myP.style.fontSize = "medium";
+
 var myP = document.getElementById("map");
+myP.style.fontSize = "medium";
 
 function zoom() 
 {
